@@ -36,169 +36,65 @@ header{
     
 }
 
+.primarynav ul {
+  font: bold 11px "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  text-transform: uppercase;
+}
 
-#firstnav{
+.primarynav li {
+    display: inline-block;
+}
+
+
+.primarynav a {
+  background: #395870;
+  background: linear-gradient(#49708f, #293f50);
+  border-right: 1px solid rgba(0, 0, 0, .3);
+  color: #fff;
+  padding: 12px 20px;
+  text-decoration: none;
+}
+
+
+.primarynav a:hover {
+  background: #314b60;
+  box-shadow: inset 0 0 10px 1px rgba(0, 0, 0, .3);
+}
+
+
+.primarynav li:first-child a {
+  border-radius: 4px 0 0 4px;
+}
+
+
+.primarynav li:last-child a {
+  border-right: 0;
+  border-radius: 0 4px 4px 0;
+}
+
+#social{
+    display: inline;
+    font-size: 18px;
     
-    font-size:1.5rem;
-    margin: auto 0;
-    padding:0;
-    width:500px;
-    height:129px;
-    display:inline-block;
+}
+
+#social nav ul{
+    font-size: 12px;
+    
     
 }
 
 
-#firstnav > ul{
-    list-style: none;
-    display:inline;
-    margin:0 auto;
-    padding:0;
-    width: 150px;
-    height: 45px; 
-    transform:translateY(1.3rem);
-}
-
-#firstnav >ul > li:nth-of-type(1){
-    display:inline-block;
-    width:153px;
-    height:35px;
-    text-align: center;
-    float:left;
-    transform:translateY(2rem);
-}
-
-#firstnav > ul > li:nth-of-type(3){
-    display: inline-block;
-    width:150px;
-    height:35px;
-    text-align: center;
-    float: right;
-    transform:translateY(2rem);
-}
-
-#firstnav > ul > li:nth-of-type(4){
-    display: inline-block;
-    width: 155px;
-    height: 35px;
-    text-align: center;
-    float: left;
-    transform:translateY(2rem);
-} 
-
-#firstnav > ul > li:nth-of-type(5){
-    display: inline-block;
-    float:left;
-    width:150px;
-    height:35px;
-    text-align: center;
-    background-color:#6C5B79;
-    transform:translateY(2rem);
-}
-
-#firstnav > ul > li:nth-of-type(6){
-    display: inline;
-    width:150px;
-    background-color:#6C5B79;
-    height:35px;
-    padding: 0;
-    text-align: center;
-    float: right;
-    transform:translateY(2rem);
-}
-
-#firstnav > ul > li > a{
-    display: inline;
-    background-color:#6C5B79;
-    text-decoration: none;
-    color:white;
-    width: 138px;
-    height:35px;
-    text-transform: uppercase;
-}
-
-#2_nav{
-    font-size:1.5rem;
-    margin:0;
-    padding:0;
-    width:500px;
-    height:129px;
-    display:inline-block;
-    float:right;
-}
-
-#2_nav ul{
-    list-style: none;
-    display:block;
-    margin:0 auto;
-    padding:0;
-    width: 138px;
-    height: 35px;
-    transform:translateY(1.3rem);
-}
-
-#2_nav ul li:nth-of-type(1){
-    display: inline;
-    text-align: center;
-    float:left;
-    position: relative;
-    top: -32px;
-    width: 100%;
-    transform:translateY(2rem);
-}
-#2_nav ul li:nth-of-type(2){
-    display:inline-block;
-    width:auto;
-    height:30px;
-    position: relative;
-    top: -35px;
-    text-align: center;
-    float:left;
-    transform:translateY(2rem);
-}
-#2_nav ul li:nth-of-type(3){
-    display:inline-block;
-    width:auto;
-    text-align: center;
-    float:left;
-    position: relative;
-    top: -35px; transform:translateY(2rem);
-}
-#2_nav ul li:nth-of-type(4){
-    display:inline-block;
-    position: relative;
-    top: -15px;
-    float:right;
-
-}
-#3_nav{
-    display: inline;
-    float: left;
-    margin: 0 auto;
-    text-align: center;
-    padding: 0;
-    width: 100%;
-    background-color: #f42098;
-}
-
-.pink_li{
-    float: left;
-    color: #F9F9F9;
-    letter-spacing: .2em;
-    font-size: 1.3em;
-    display: inline-block;
-    width: calc(100%/13);
-    line-height: 20px;
-    width: auto;
-    margin: 0 auto;
-    background-color: #f42098;
-}
 
 a{
     text-decoration: none;
     color: white;
     
 }
+
+
 input{
     background-color: #6c5b79;
     border:none;
@@ -215,9 +111,15 @@ input{
     color: #fff;
     
 }
-#check-out{
-    color: black;
-    margin-right: 15rem;
+
+.socal > li {
+  display: inline-block;
+  margin: 0 10px;
+  vertical-align: top;
+}
+
+.social {
+  margin-right: 0;
 }
 
 
